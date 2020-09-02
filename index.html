@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        height: 100vh;
+        width: 100wh;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      form {
+        background-color: rgb(231, 222, 222);
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+      }
+      .input-field {
+        width: 80%;
+        padding: 10px;
+      }
+      label {
+        margin-top: 2vh;
+        font-size: 1.5rem;
+      }
+      .textarea {
+        height: 12vh;
+      }
+      button {
+        height: 40px;
+        width: 60px;
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>First Name</label>
+      <input class="input-field" />
+      <label>Last Name</label>
+      <input class="input-field" />
+      <label>Country</label>
+      <select class="input-field">
+        <option>Ghanna</option>
+        <option>Nigeria</option>
+        <option>Togo</option>
+        <option>Benin</option>
+      </select>
+      <label>Subject</label>
+      <textarea class="input-field textarea">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Ratione, corrupti dolores magni similique excepturi optio praesentium.
+             Odio, optio sapiente tempore provident eos culpa perspiciatis
+              dolorem molestiae nemo minus magni necessitatibus.
+       </textarea
+      >
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
